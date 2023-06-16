@@ -26,3 +26,13 @@ div_block.appendChild(paragraph2);
 container.appendChild(paragraph);
 container.appendChild(div_block);
 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruits.length;
+
+div_block.classList.add("newblock");
+
+const btn = document.querySelector("#btn");
+
+btn.addEventListener('click', function (event) {
+    event.target.style.background = 'blue';
+});
